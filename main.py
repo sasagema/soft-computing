@@ -169,7 +169,7 @@ def main():
                                 (el['center'][0] + 10, el['center'][1] + 10),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, colors['white'])
                     cv2.putText(frame, str(el['number']),
-                                (el['center'][0] - 10, el['center'][1] + 10),
+                                (el['center'][0] - 20, el['center'][1] + 10),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, colors['white'])
 
             elapsed_time = time.time() - start_time
